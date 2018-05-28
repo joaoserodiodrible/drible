@@ -1,0 +1,58 @@
+/* BackGround Color change*/
+.bd-navbar {
+      background-color: #000;
+}
+
+/* NavBar HyperLinks Color Change */
+.bd-navbar .navbar-nav .nav-link {
+      color: #fff;
+}
+
+/*Changing Headers Color */
+h1,
+h2,
+h3,
+h4{
+      color:#D0AE83;
+}
+
+/*Change Font Size*/
+body {
+      font-size: 1.2rem;
+}
+/* NavBar Height Change*/
+.bd-navbar {
+      min-height: 3rem;
+}
+
+
+@media (min-width: 768px){
+      .p-md-5 {
+            padding: 2rem!important;
+      }
+}
+
+
+nav.navbar{
+      background-color: #000;
+}
+
+
+a {
+      color: #fff;
+}
+
+
+a:hover {
+    color: #bababa;
+}
+
+
+nav.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+
+a {
+    color: #1A0DAA;
+}
