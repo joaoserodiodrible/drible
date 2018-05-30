@@ -23,7 +23,7 @@
 
             <p class="lead">Agora já deves ter o clone do fork no teu Atom. Para teres certeza de que funcionou, a tua pasta deve ficar parecida a como ficou a pasta da imagem abaixo.</p>
 
-            <img src="/img/atom_folderexample.png" alt="Atom Folder">
+            <img src="/img/atom_folderexample.PNG" alt="Atom Folder">
 
             <hr>
 
@@ -61,9 +61,9 @@
                   <li class="lead">Entra na tua conta em <a href="https://github.com/">GitHub.com<a> e no GitHub Desktop.</li>
                         <li class="lead">No GitHub.com, navega até à barra de codificação do teu repositório.</li>
                         <li class="lead">No lado direito do ecrã, clica em “Clone or download”.</li>
-                        <img src="/img/clone_clonebutton.png" alt="Clone Button" width="700" height="400">
+                        <img src="/img/clone_clonebutton.PNG" alt="Clone Button" width="700" height="400">
                         <li class="lead">Depois clica em “Open in Desktop”. Isto abrir-te-á o GitHub Desktop.</li>
-                        <img src="/img/clone_opendesktop.png" alt="Open in Dekstop Button">
+                        <img src="/img/clone_opendesktop.PNG" alt="Open in Dekstop Button">
                         <li class="lead">Cria uma pasta com o nome “Drible” no teu disco.</li>
                         <li class="lead">Guarda o diretório da pasta “Drible”.</li>
                         <li class="lead">Clica em Clone.</li>
@@ -82,7 +82,7 @@
 
                   <p class="lead">Para fazeres um branch basta ires ao canto inferior direito do Atom e clicar no botão á direita das setas. Em princípio esse botão deve ter um nome do género “master” ou assim. </p>
 
-                  <img src="/img/branch_howto.png" alt="How to Branch">
+                  <img src="/img/branch_howto.PNG" alt="How to Branch">
 
                   <hr>
 
