@@ -10,7 +10,10 @@
         "cakephp/migrations": "^1.0",
         "cakephp/plugin-installer": "^1.0",
         "josegonzalez/dotenv": "2.*",
-        "mobiledetect/mobiledetectlib": "2.*"
+        "m1/vars": "^1.1",
+        "mobiledetect/mobiledetectlib": "2.*",
+        "symfony/event-dispatcher": "^3.4",
+        "symfony/lock": "^3.4"
     },
     "require-dev": {
         "cakephp/bake": "^1.1",
