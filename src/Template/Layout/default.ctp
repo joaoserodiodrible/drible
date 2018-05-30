@@ -25,7 +25,7 @@
       <link rel="mask-icon" href="#" color="#563d7c">
       <link rel="icon" href="#">
       <meta name="msapplication-config" content="#">
-      <meta name="theme-color" content="#563d7c">
+      <meta name="theme-color" content="#000">
 
 
       <!-- Meta -->
