@@ -22,7 +22,7 @@
       <link rel="icon" href="/img/favicons/favicon-32x32.png" sizes="32x32" type="img/png">
       <link rel="icon" href="/img/favicons/favicon-16x16.png" sizes="16x16" type="img/png">
       <link rel="manifest" href="#">
-      <link rel="mask-icon" href="#" color="#563d7c">
+      <link rel="mask-icon" href="#" color="#000">
       <link rel="icon" href="#">
       <meta name="msapplication-config" content="#">
       <meta name="theme-color" content="#000">
