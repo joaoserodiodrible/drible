@@ -61,6 +61,8 @@ Router::scope('/', function (RouteBuilder $routes) {
 
   $routes->connect('/estagiarios/marketingdigital', ['controller' => 'Pages', 'action' => 'estagiariosMarketingdigital']);
 
+  $routes->connect('/estagiarios/lastday', ['controller' => 'Pages', 'action' => 'estagiariosLastday']);
+
   $routes->connect('estagiarios/web/hellodrible', ['controller' => 'Pages', 'action' => 'estagiarioswebHelloDrible']);
 
   $routes->connect('web/cake-php', ['controller' => 'Pages', 'action' => 'webCakePhp']);

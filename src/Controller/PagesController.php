@@ -70,6 +70,11 @@ class PagesController extends AppController
     public function estagiariosMarketingdigital(){
 
     }
+
+    public function estagiariosLastday(){
+
+    }
+
     public function estagiarioswebHelloDrible(){
 
     }

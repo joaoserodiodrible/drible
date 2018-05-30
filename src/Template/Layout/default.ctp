@@ -79,6 +79,7 @@
                                     <a class="dropdown-item" href="/estagiarios/web">Estagiários de Web</a>
                                     <a class="dropdown-item" href="/estagiarios/design">Estagiários de Design</a>
                                     <a class="dropdown-item" href="/estagiarios/marketingdigital">Estagiários de Marketing Digital</a>
+                                    <a class="dropdown-item" href="/estagiarios/lastday">Último Dia</a>
                               </div>
                         </li>
                         <li class="nav-item">
