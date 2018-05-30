@@ -144,6 +144,18 @@
 
             <hr>
 
+            <h2>Daily-Standup</h2>
+
+            <p class="lead">O standbot irá enviar-te diariamente pelas 9:00h umas questões que permitem que toda a equipa saiba em que estás a trabalhar e o que conseguiste fazer no dia anterior, por isso certifica-te que abres o slack todos os dias de manhã. O standbot irá perguntar-te:</p>
+
+            <ul>
+                  <li class="lead">O que fizeste no dia anterior? ("What did you accomplish since your last stand-up?")</li>
+                  <li class="lead">Em que é que vais trabalhar hoje? ("What are you working on today?")</li>
+                  <li class="lead">Se tens bloqueadores, algo que não te permita fazer o trabalho! ("Do you have any blockers standing in your way?")</li>
+            </ul>
+
+            <hr>
+
             <h2>Reunião com o teu mentor</h2>
 
             <p class="lead"> No primeiro dia, marca com o teu mentor uma reunião de 15 minutos para trocarem ideias e também para se ficarem a conhecer melhor. </p>
