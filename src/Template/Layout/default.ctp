@@ -19,8 +19,8 @@
 
       <!-- Favicons -->
       <link rel="apple-touch-icon" href="/img/favicons/apple-touch-icon.png" sizes="180x180">
-      <link rel="icon" href="/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-      <link rel="icon" href="/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+      <link rel="icon" href="/img/favicons/favicon-32x32.png" sizes="32x32" type="img/png">
+      <link rel="icon" href="/img/favicons/favicon-16x16.png" sizes="16x16" type="img/png">
       <link rel="manifest" href="#">
       <link rel="mask-icon" href="#" color="#563d7c">
       <link rel="icon" href="#">
@@ -29,8 +29,8 @@
 
 
       <!-- Meta -->
-      <meta name="description" content="The most popular HTML, CSS, and JS library in the world.">
-      <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+      <meta name="description" content="Drible - Página de Introdução e Trabalho">
+      <meta name="author" content="Drible">
 
       <!-- Twitter -->
       <meta name="twitter:site" content="@getbootstrap">
@@ -38,16 +38,16 @@
 
 
       <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:title" content="Bootstrap">
-      <meta name="twitter:description" content="The most popular HTML, CSS, and JS library in the world.">
+      <meta name="twitter:title" content="Drible">
+      <meta name="twitter:description" content="Drible - Página de Introdução e Trabalho">
       <meta name="twitter:image" content="https://getbootstrap.com/assets/brand/bootstrap-social.png">
 
 
       <!-- Facebook -->
 
       <meta property="og:url" content="https://getbootstrap.com">
-      <meta property="og:title" content="Bootstrap">
-      <meta property="og:description" content="The most popular HTML, CSS, and JS library in the world.">
+      <meta property="og:title" content="Drible">
+      <meta property="og:description" content="Drible - Página de Introdução e Trabalho">
 
       <meta property="og:image" content="http://getbootstrap.com/assets/brand/bootstrap-social.png">
       <meta property="og:image:secure_url" content="https://getbootstrap.com/assets/brand/bootstrap-social.png">
