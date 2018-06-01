@@ -81,7 +81,7 @@
             <h2>Cria a tua conta Slack</h2>
 
             <ul>
-                  <li class="lead">Clica neste <a href="https://join.slack.com/t/drible-interns/shared_invite/enQtMzI5ODg3MDI2Mjk0LTY1N2Q5YzdkM2Q2NjI3YTc0MWZkNGNmNmJiNmYwZGE0ZTY0NzNjYzRhODg2MTE4ODEwZjRhOTc5NDMyMDY1MTA">link</a></li>
+                  <li class="lead">Clica neste <a href="https://drible-slackin.herokuapp.com/">link</a></li>
                   <li class="lead">Coloca o teu e-mail onde é pedido e vai ao Gmail confirmar o teu e-mail</li>
                   <li class="lead">Em seguida, preenche com a tua informação pessoal e aceita os termos.</li>
                   <li class="lead">Depois vai-te pedir para convidares outros e-mails, aí clicas em Skip For Now.</li>
@@ -146,13 +146,21 @@
 
             <h2>Daily-Standup</h2>
 
-            <p class="lead">O standbot irá enviar-te diariamente pelas 9:00h umas questões que permitem que toda a equipa saiba em que estás a trabalhar e o que conseguiste fazer no dia anterior, por isso certifica-te que abres o slack todos os dias de manhã. O standbot irá perguntar-te:</p>
+            <div class="row">
+                  <div class="col-sm-9"> <p class="lead">O standbot irá enviar-te diariamente pelas 9:00h umas questões que permitem que toda a equipa saiba em que estás a trabalhar e o que conseguiste fazer no dia anterior, por isso certifica-te que abres o slack todos os dias de manhã. O standbot irá perguntar-te:</p>
 
-            <ul>
-                  <li class="lead">O que fizeste no dia anterior? ("What did you accomplish since your last stand-up?")</li>
-                  <li class="lead">Em que é que vais trabalhar hoje? ("What are you working on today?")</li>
-                  <li class="lead">Se tens bloqueadores, algo que não te permita fazer o trabalho! ("Do you have any blockers standing in your way?")</li>
-            </ul>
+                        <ul>
+                              <li class="lead">O que fizeste no dia anterior? ("What did you accomplish since your last stand-up?")</li>
+                              <li class="lead">Em que é que vais trabalhar hoje? ("What are you working on today?")</li>
+                              <li class="lead">Se tens bloqueadores, algo que não te permita fazer o trabalho! ("Do you have any blockers standing in your way?")</li>
+                        </ul>
+                  </div>
+
+                  <div class="col-sm-3"><img class="heightstandbot rounded float-right" src="/img/standbot.png" alt="Atom Folder">
+                  </div>
+
+            </div>
+
 
             <hr>
 
