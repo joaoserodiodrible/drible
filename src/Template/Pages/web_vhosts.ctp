@@ -171,7 +171,7 @@
 
             <p class="lead"><code>sudo nano /etc/hosts</code></p>
 
-            <p class="lead">If you are on a Windows machine, you can <a href="https://support.microsoft.com/pt-pt/help/923947/you-cannot-modify-the-hosts-file-or-the-lmhosts-file-in-windows-vista">find instructions on altering your hosts file </a> here.</p>
+            <p class="lead">If you are on a Windows machine, you can <a href="https://support.microsoft.com/pt-pt/help/923947/you-cannot-modify-the-hosts-file-or-the-lmhosts-file-in-windows-vista" target="_blank">find instructions on altering your hosts file </a> here.</p>
 
             <p class="lead">The details that you need to add are the public IP address of your VPS server followed by the domain you want to use to reach that VPS.</p>
 
@@ -201,7 +201,7 @@
 
             <p class="lead">If you adjusted your home computer’s hosts file, you may want to delete the lines you added now that you verified that your configuration works. This will prevent your hosts file from being filled with entries that are not actually necessary.</p>
 
-            <p class="lead">If you need to access this long term, consider purchasing a domain name for each site you need and <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean">setting it up to point to your VPS server</a></p>
+            <p class="lead">If you need to access this long term, consider purchasing a domain name for each site you need and <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean" target="_blank">setting it up to point to your VPS server</a></p>
 
             <h2>Conclusion</h2>
 

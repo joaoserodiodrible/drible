@@ -14,7 +14,7 @@
             <p class="lead">To follow this tutorial, you will need:</p>
 
             <ul>
-                  <li class="lead">One Ubuntu 16.04 server with a sudo non-root user, which you can set up by following Steps 1-3 in the <a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04">Initial Server Setup with Ubuntu 16.04 tutorial</a>.</li>
+                  <li class="lead">One Ubuntu 16.04 server with a sudo non-root user, which you can set up by following Steps 1-3 in the <a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04" target="_blank">Initial Server Setup with Ubuntu 16.04 tutorial</a>.</li>
             </ul>
 
             <p class="lead">UFW is installed by default on Ubuntu. If it has been uninstalled for some reason, you can install it with <code>sudo apt-get install ufw</code>.</p>
@@ -241,7 +241,7 @@
 
                                     <p class="lead">Your firewall should now be configured to allow (at least) SSH connections. Be sure to allow any other incoming connections that your server, while limiting any unnecessary connections, so your server will be functional and secure.</p>
 
-                                    <p class="lead">To learn about more common UFW configurations, check out the <a href="https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands">UFW Essentials: Common Firewall Rules and Commands</a> tutorial.</p>
+                                    <p class="lead">To learn about more common UFW configurations, check out the <a href="https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands" target="_blank">UFW Essentials: Common Firewall Rules and Commands</a> tutorial.</p>
 
                               </div>
                         </main>

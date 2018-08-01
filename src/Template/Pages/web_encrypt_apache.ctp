@@ -7,7 +7,7 @@
 
             <h2>Step 1: Prerequisites</h2>
 
-            <p class="lead">You will need a Vultr SSD cloud server with Ubuntu 14.04 installed. You will also need a LAMP stack (Apache, PHP, etc.). If you do not yet have a LAMP stack installed on your Vultr server, please refer to the following knowledge base article:<a href="https://www.vultr.com/docs/how-to-install-apache-mysql-and-php-on-ubuntu"> How to Install Apache, MySQL, and PHP on Ubuntu.</a></p>
+            <p class="lead">You will need a Vultr SSD cloud server with Ubuntu 14.04 installed. You will also need a LAMP stack (Apache, PHP, etc.). If you do not yet have a LAMP stack installed on your Vultr server, please refer to the following knowledge base article:<a href="https://www.vultr.com/docs/how-to-install-apache-mysql-and-php-on-ubuntu" target="_blank"> How to Install Apache, MySQL, and PHP on Ubuntu.</a></p>
 
             Once you have a working LAMP Stack on your Ubuntu Server, you can proceed with with installing Let’s Encrypt.
 

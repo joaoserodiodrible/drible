@@ -11,13 +11,13 @@
 
             <h2>Prerequisities</h2>
 
-            <p class="lead">Before you begin with this guide, you should have a separate, non-root user account with ‘sudo’ privileges set up on your server. You can learn how to do this by completing steps 1-4 in the <a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04">initial server setup for Ubuntu 16.04</a>.</p>
+            <p class="lead">Before you begin with this guide, you should have a separate, non-root user account with ‘sudo’ privileges set up on your server. You can learn how to do this by completing steps 1-4 in the <a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04" target="_blank">initial server setup for Ubuntu 16.04</a>.</p>
 
             <h2>Step 1: Install Apache and Allow in Firewall</h2>
 
             <p class="lead">The Apache web server is among the most popular web servers in the world. It’s well-documented, and has been in wide use for much of the history of the web, which makes it a great default choice for hosting a website.</p>
 
-            <p class="lead">We can install Apache easily using Ubuntu’s package manager, ‘apt’. A package manager allows us to install most software pain-free from a repository maintained by Ubuntu. You can learn more about <a href="https://www.digitalocean.com/community/tutorials/how-to-manage-packages-in-ubuntu-and-debian-with-apt-get-apt-cache">how to use ‘apt’</a> here.</p>
+            <p class="lead">We can install Apache easily using Ubuntu’s package manager, ‘apt’. A package manager allows us to install most software pain-free from a repository maintained by Ubuntu. You can learn more about <a href="https://www.digitalocean.com/community/tutorials/how-to-manage-packages-in-ubuntu-and-debian-with-apt-get-apt-cache" target="_blank">how to use ‘apt’</a> here.</p>
 
             <p class="lead">For our purposes, we can get started by typing these commands:</a>
 
@@ -39,7 +39,7 @@
 
                   <p class="lead"> Open up the main configuration file with your text edit: <code class="highlighter-rouge">sudo nano /etc/apache2/apache2.conf</code> Inside, at the bottom of the file, add a ‘ServerName’ directive, pointing to your primary domain name. If you do not have a domain name associated with your server, you can use your server’s public IP address:</p>
 
-                  <p class="lead"><b>Note:</b> If you don’t know your server’s IP address, skip down to the section on <a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04#how-to-find-your-server-39-s-public-ip-address">how to find your server’s public IP address</a> to find it. <strong>/etc/apache2/apache2.conf</strong> . . . ServerName server_domain_or_IP. Save and close the file when you are finished.</p>
+                  <p class="lead"><b>Note:</b> If you don’t know your server’s IP address, skip down to the section on <a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04#how-to-find-your-server-39-s-public-ip-address" target="_blank">how to find your server’s public IP address</a> to find it. <strong>/etc/apache2/apache2.conf</strong> . . . ServerName server_domain_or_IP. Save and close the file when you are finished.</p>
 
                   <p class="lead">Next, check for syntax errors by typing:</p>
 
@@ -299,7 +299,7 @@
 
                   <p class="lead">As an immediate next step, you should ensure that connections to your web server are secured, by serving them via HTTPS. The easiest option here is to <a href="https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-16-04">use Let’s Encrypt</a> to secure your site with a free TLS/SSL certificate.</p>
 
-                  <p class="lead">Some other popular options are:<a href="https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-ubuntu-14-04">-Install Wordpress<a> the most popular content management system on the internet. <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-12-04">-Set Up PHPMyAdmin </a> to help manage your MySQL databases from web browser. <a href="https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial">-Learn more about MySQL</a> to manage your databases. <a href="https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server">-Learn how to use SFTP</a> to transfer files to and from your server. <b>Note:</b> We will be updating the links above to our 16.04 documentation as it is written.</p>
+                  <p class="lead">Some other popular options are:<a href="https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-ubuntu-14-04" target="_blank">-Install Wordpress<a> the most popular content management system on the internet. <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-12-04" target="_blank">-Set Up PHPMyAdmin </a> to help manage your MySQL databases from web browser. <a href="https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial" target="_blank">-Learn more about MySQL</a> to manage your databases. <a href="https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server" target="_blank">-Learn how to use SFTP</a> to transfer files to and from your server. <b>Note:</b> We will be updating the links above to our 16.04 documentation as it is written.</p>
 
             </div>
       </main>

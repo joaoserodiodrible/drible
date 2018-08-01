@@ -3,9 +3,9 @@
 
             <h1>Documentation Markdown</h1>
 
-            <p class="lead"> You can use the <a href="https://github.com/agencia-drible/drible/edit/master/README.md">editor on GitHub</a> to maintain and preview the content for your website in Markdown files.</p>
+            <p class="lead"> You can use the <a href="https://github.com/agencia-drible/drible/edit/master/README.md" target="_blank">editor on GitHub</a> to maintain and preview the content for your website in Markdown files.</p>
 
-            <p class="lead"> Whenever you commit to this repository, GitHub Pages will run <a href="https://jekyllrb.com">Jekyll</a> to rebuild the pages in your site, from the content in your Markdown files.</p>
+            <p class="lead"> Whenever you commit to this repository, GitHub Pages will run <a href="https://jekyllrb.com" target="_blank">Jekyll</a> to rebuild the pages in your site, from the content in your Markdown files.</p>
 
             <h2>Markdown</h2>
 
@@ -32,11 +32,11 @@
 
 <h2>Jekyll Themes</h2>
 
-<p class="lead">Your Pages site will use the layout and styles from the Jekyll theme you have selected in your <a href="https://github.com/popperz0r/sys-config/settings">repository settings</a>. The name of this theme is saved in the Jekyll <code class="highlighter-rouge">_config.yml</code> configuration file.</p>
+<p class="lead">Your Pages site will use the layout and styles from the Jekyll theme you have selected in your <a href="https://github.com/popperz0r/sys-config/settings" target="_blank">repository settings</a>. The name of this theme is saved in the Jekyll <code class="highlighter-rouge">_config.yml</code> configuration file.</p>
 
 <h2>Support or Contact</h2>
 
-<p class="lead">Having trouble with Pages? Check out our <a href="https://help.github.com/categories/github-pages-basics/">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<p class="lead">Having trouble with Pages? Check out our <a href="https://help.github.com/categories/github-pages-basics/" target="_blank">documentation</a> or <a href="https://github.com/contact" target="_blank">contact support</a> and we’ll help you sort it out.</p>
 
 </div>
 </main>
