@@ -173,14 +173,15 @@
                   <h2>Pull Request</h2>
 
                   <p class="lead">Pull requests permitem-te dizer ao outros utilizadores das alterações que fizeste para um repositório no GitHub. Uma vez que um pull request é aberto, tu podes discutir e rever as potenciais alterações com os teus colaboradores e adicionar commits novos antes das alterações serem juntas ao repositório. </p>
-                  <img src="/img/new_pull_request_button.png" alt="Pull Requests"/>
-                  <br/><br/>
 
                   <ul>
                         <li class="lead">Na página do teu repositório no GitHub.com, clica em “New Pull Request”.</li>
+                        <img src="/img/new_pull_request_button.png" alt="Pull Requests"/>
+                        <br/><br/>
+                        <li class="lead">Agora deves pressionar "Create pull request".</li>
                         <img src="/img/create_pull_request_button.png" alt="Pull Requests"/>
                         <br/><br/>
-                        <li class="lead">Depois clica em “Create Pull Request” e já deve estar o Pull Request feito.</li>
+                        <li class="lead">Para finalizar edita os campos para título e descrição. Pressiona o botão "Create pull request".</li>
                         <img src="/img/create_pull_request_edit_textbox.png" alt="Pull Requests"/>
                         <br/><br/>
                   </ul>
