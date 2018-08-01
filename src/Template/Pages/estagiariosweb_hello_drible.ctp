@@ -178,7 +178,7 @@
                         <li class="lead">Na página do teu repositório no GitHub.com, clica em “New Pull Request”.</li>
                         <img src="/img/new_pull_request_button.png" alt="Pull Requests"/>
                         <br/><br/>
-                        <li class="lead">Agora, deves pressionar "Create pull request".</li>
+                        <li class="lead">Agora deves pressionar "Create pull request".</li>
                         <img src="/img/create_pull_request_button.png" alt="Pull Requests"/>
                         <br/><br/>
                         <li class="lead">Para finalizar edita os campos para título e descrição. Pressiona o botão "Create pull request".</li>
