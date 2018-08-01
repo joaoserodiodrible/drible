@@ -173,6 +173,7 @@
                   <h2>Pull Request</h2>
 
                   <p class="lead">Pull requests permitem-te dizer ao outros utilizadores das alterações que fizeste para um repositório no GitHub. Uma vez que um pull request é aberto, tu podes discutir e rever as potenciais alterações com os teus colaboradores e adicionar commits novos antes das alterações serem juntas ao repositório. </p>
+                  <img src="img/new_pull_request_button.png" alt="Pull Requests"/>
 
                   <p class="lead">Para criares um pull request basta:</p>
 
