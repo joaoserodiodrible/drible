@@ -11,7 +11,7 @@
 
             <h2>Atom</h2>
 
-            <p class="lead">O Atom é um editor de texto, faz <a href="https://atom.io/">download</a> dele, vamos utilizar esta ferramenta mais a frente. </p>
+            <p class="lead">O Atom é um editor de texto, faz <a href="https://atom.io/"  target="_blank">download</a> dele, vamos utilizar esta ferramenta mais a frente. </p>
 
             <h3>O que é, para que serve e o que procurar num editor de texto?</h3>
 
@@ -38,7 +38,7 @@
 
             <p class="lead">É útil para coordenar trabalho entre múltiplas pessoas num projeto, e para monitorizar o progresso ao longo do tempo guardando “checkpoints”.</p>
 
-            <p class="lead">Existe vários tipos de alojamento online tais como o <a href="https://github.com/">GitHub</a> e o <a href="https://bitbucket.org/">BitBucket</a>.</p>
+            <p class="lead">Existe vários tipos de alojamento online tais como o <a href="https://github.com/"  target="_blank">GitHub</a> e o <a href="https://bitbucket.org/" target="_blank">BitBucket</a>.</p>
 
             <hr>
 
@@ -82,9 +82,9 @@
 
             <h2>Como obter o GitHub?</h2>
 
-            <p class="lead"><a href="https://desktop.github.com/">GitHub Desktop</a> (para Windows e Mac)</p>
+            <p class="lead"><a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a> (para Windows e Mac)</p>
 
-            <p class="lead">Agora vamos por isto tudo em prática. Clica <a href="/estagiarios/web/hellodrible">aqui</a>.</p>
+            <p class="lead">Agora vamos por isto tudo em prática. Clica <a href="/estagiarios/web/hellodrible" target="_blank">aqui</a>.</p>
 
       </div>
 </main>

@@ -9,7 +9,7 @@
 
             <h4>Remover conta do Slack</h4>
 
-            <p class="lead">Basta seguires este <a href="https://drible-interns.slack.com/account/deactivate">link </a>,entrares com a tua conta, colocar a tua palavra passe, clicar em "Deactivate your account" e depois reconfirmar que queres apagar a tua conta.</p>
+            <p class="lead">Basta seguires este <a href="https://drible-interns.slack.com/account/deactivate"  target="_blank">link </a>,entrares com a tua conta, colocar a tua palavra passe, clicar em "Deactivate your account" e depois reconfirmar que queres apagar a tua conta.</p>
 
             <h4>Deixar os ficheiros na pasta do Drive</h4>
 

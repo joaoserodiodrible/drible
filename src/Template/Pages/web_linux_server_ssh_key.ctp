@@ -286,7 +286,7 @@
 
                   <h3>Conclusion</h3>
 
-                  <p class="lead">You should now have SSH key-based authentication configured and running on your server, allowing you to sign in without providing an account password. From here, there are many directions you can head. If you’d like to learn more about working with SSH, take a look at our <a href="https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys">SSH essentials guide</a>.</p>
+                  <p class="lead">You should now have SSH key-based authentication configured and running on your server, allowing you to sign in without providing an account password. From here, there are many directions you can head. If you’d like to learn more about working with SSH, take a look at our <a href="https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys" target="_blank">SSH essentials guide</a>.</p>
 
             </div>
       </main>

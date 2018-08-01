@@ -7,9 +7,9 @@
 
             <h2>Configuração do Git</h2>
 
-            <p class="lead">Para começar, tens que criar uma conta no <a href="https://github.com/join">Github</a>.</p>
+            <p class="lead">Para começar, tens que criar uma conta no <a href="https://github.com/join" target="_blank">Github</a>.</p>
 
-            <p class="lead">Em Seguida, tens que fazer <a href="https://desktop.github.com/">download</a> do GitHub.</p>
+            <p class="lead">Em Seguida, tens que fazer <a href="https://desktop.github.com/" target="_blank">download</a> do GitHub.</p>
 
             <hr>
 
@@ -58,7 +58,7 @@
             <h2>Clone</h2>
 
             <ul>
-                  <li class="lead">Entra na tua conta em <a href="https://github.com/">GitHub.com<a> e no GitHub Desktop.</li>
+                  <li class="lead">Entra na tua conta em <a href="https://github.com/" target="_blank">GitHub.com<a> e no GitHub Desktop.</li>
                         <li class="lead">No GitHub.com, navega até à barra de codificação do teu repositório.</li>
                         <li class="lead">No lado direito do ecrã, clica em “Clone or download”.</li>
                         <img src="/img/cloneclonebutton.png" alt="Clone Button" width="700" height="400">
@@ -74,7 +74,7 @@
 
                   <h2>Escolhe 5 issues</h2>
 
-                  <p class="lead">Ao abrires este <a href="https://github.com/popperz0r/drible/issues">link</a>, vai-te levar a uma webpage onde terá diversos issues (problemas) e terás que escolher 5 desses problemas e resolvê-los.</p>
+                  <p class="lead">Ao abrires este <a href="https://github.com/popperz0r/drible/issues" target="_blank">link</a>, vai-te levar a uma webpage onde terá diversos issues (problemas) e terás que escolher 5 desses problemas e resolvê-los.</p>
 
                   <hr>
 

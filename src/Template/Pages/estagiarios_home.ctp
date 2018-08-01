@@ -81,11 +81,11 @@
             <h2>Cria a tua conta Slack</h2>
 
             <ul>
-                  <li class="lead">Clica neste <a href="https://drible-slackin.herokuapp.com/">link</a></li>
+                  <li class="lead">Clica neste <a href="https://drible-slackin.herokuapp.com/" target="_blank">link</a></li>
                   <li class="lead">Coloca o teu e-mail onde é pedido e vai ao Gmail confirmar o teu e-mail</li>
                   <li class="lead">Em seguida, preenche com a tua informação pessoal e aceita os termos.</li>
                   <li class="lead">Depois vai-te pedir para convidares outros e-mails, aí clicas em Skip For Now.</li>
-                  <li class="lead">Em seguida, fazes <a href="https://slack.com/downloads/windows">download </a> da app do Slack.</li>
+                  <li class="lead">Em seguida, fazes <a href="https://slack.com/downloads/windows" target="_blank">download </a> da app do Slack.</li>
                   <li class="lead">Instalas e ligas a app.</li>
                   <li class="lead">Assim que ligares, a app irá te pedir pelo teu workspace</li>
                   <li class="lead">Preenches com <b>drible-interns</b> (o .slack.com já está lá).</li>
@@ -172,7 +172,7 @@
 
             <h2>Solicita acesso ao Drive</h2>
 
-            <p class="lead">Clica neste <a href="https://drive.google.com/drive/folders/1wI8Tp7b-cEZP24jM-nXelgEg0w1RKX3O?usp=sharing">link</a> e depois clica em “Solicitar Acesso”.</p>
+            <p class="lead">Clica neste <a href="https://drive.google.com/drive/folders/1wI8Tp7b-cEZP24jM-nXelgEg0w1RKX3O?usp=sharing" target="_blank">link</a> e depois clica em “Solicitar Acesso”.</p>
 
             <p class="lead"><strong>Nota</strong>:Verifica que o e-mail que usas para solicitar é o email da Drible. E depois de pedires acesso continua com os passos, o pedido será aceitado brevemente. </p>
 
@@ -181,11 +181,11 @@
             <hr>
             <hr>
 
-            <p class="lead"><b> Se és estagiário de Web lê mais <a href="/estagiarios/web"> aqui</a></b></p>
+            <p class="lead"><b> Se és estagiário de Web lê mais <a href="/estagiarios/web" target="_blank"> aqui</a></b></p>
 
-            <p class="lead"><b> Se és estagiário de Design lê mais <a href="/estagiarios/design"> aqui</a></b></p>
+            <p class="lead"><b> Se és estagiário de Design lê mais <a href="/estagiarios/design" target="_blank"> aqui</a></b></p>
 
-            <p class="lead"><b> Se és estagiário de Marketing Digital lê mais <a href="/estagiarios/marketingdigital"> aqui</a></b></p>
+            <p class="lead"><b> Se és estagiário de Marketing Digital lê mais <a href="/estagiarios/marketingdigital" target="_blank"> aqui</a></b></p>
 
       </div>
 </main>
