@@ -85,8 +85,13 @@
                         <li class="nav-item">
                               <a class="nav-link " href="/design/home">Design</a>
                         </li>
-                        <li class="nav-item">
-                              <a class="nav-link " href="/web/home">Web</a>
+                        <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Web</a>
+                              <div class="dropdown-menu" aria-labelledby="dropdown02">
+                                    <a class="dropdown-item" href="/web/home">Início</a>
+                                    <a class="dropdown-item" href="/web/scripts">Scripts</a>
+                                    <a class="dropdown-item" href="/web/processos">Processos</a>
+                              </div>
                         </li>
                         <li class="nav-item">
                               <a class="nav-link " href="/marketingdigital/home">Marketing Digital</a>

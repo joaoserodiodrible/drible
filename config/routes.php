@@ -65,21 +65,28 @@ Router::scope('/', function (RouteBuilder $routes) {
 
   $routes->connect('estagiarios/web/hellodrible', ['controller' => 'Pages', 'action' => 'estagiarioswebHelloDrible']);
 
-  $routes->connect('web/cake-php', ['controller' => 'Pages', 'action' => 'webCakePhp']);
+  $routes->connect('web/scripts', ['controller' => 'Pages', 'action' => 'webScripts']);
 
-  $routes->connect('web/doc-markdown', ['controller' => 'Pages', 'action' => 'webDocMarkdown']);
+  $routes->connect('web/processos', ['controller' => 'Pages', 'action' => 'webProcessos']);
 
-  $routes->connect('web/lamp-config', ['controller' => 'Pages', 'action' => 'webLampConfig']);
+  $routes->connect('web/scripts/cake-php', ['controller' => 'Pages', 'action' => 'webCakePhp']);
 
-  $routes->connect('web/encrypt-apache', ['controller' => 'Pages', 'action' => 'webEncryptApache']);
+  $routes->connect('web/scripts/doc-markdown', ['controller' => 'Pages', 'action' => 'webDocMarkdown']);
 
-  $routes->connect('web/vhosts-macos', ['controller' => 'Pages', 'action' => 'webVhostsMacos']);
+  $routes->connect('web/scripts/lamp-config', ['controller' => 'Pages', 'action' => 'webLampConfig']);
 
-  $routes->connect('web/linux-server-ssh-key', ['controller' => 'Pages', 'action' => 'webLinuxServerSshKey']);
+  $routes->connect('web/scripts/encrypt-apache', ['controller' => 'Pages', 'action' => 'webEncryptApache']);
 
-  $routes->connect('web/ubuntu-firewall', ['controller' => 'Pages', 'action' => 'webUbuntuFirewall']);
+  $routes->connect('web/scripts/vhosts-macos', ['controller' => 'Pages', 'action' => 'webVhostsMacos']);
 
-  $routes->connect('web/vhosts', ['controller' => 'Pages', 'action' => 'webVhosts']);
+  $routes->connect('web/scripts/linux-server-ssh-key', ['controller' => 'Pages', 'action' => 'webLinuxServerSshKey']);
+
+  $routes->connect('web/scripts/ubuntu-firewall', ['controller' => 'Pages', 'action' => 'webUbuntuFirewall']);
+
+  $routes->connect('web/scripts/vhosts', ['controller' => 'Pages', 'action' => 'webVhosts']);
+
+  $routes->connect('/web/processos/novo-projeto', ['controller' => 'Pages', 'action' => 'webProcessosNovoProjeto']);
+
     /**
 
      * Here, we are connecting '/' (base path) to a controller called 'Pages',

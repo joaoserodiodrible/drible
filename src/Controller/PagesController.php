@@ -99,7 +99,20 @@ class PagesController extends AppController
     public function webUbuntuFirewall(){
 
     }
+
+    public function webScripts(){
+
+    }
+
     public function webVhosts(){
 
     }
+
+    public function webProcessos(){
+
+    }
+
+    public function webProcessosNovoProjeto(){
+
+   }
 }
