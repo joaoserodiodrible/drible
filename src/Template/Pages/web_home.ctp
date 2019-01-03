@@ -84,7 +84,7 @@
 
             <hr>
 
-            <h2>Introduz-te</h2>
+            <!-- <h2>Introduz-te</h2>
 
             <p class="lead"> No Slack, existe um canal chamado “#self-introductions”. Nesse canal deves fazer uma pequena introdução tua.<br/>Se não sabes o que dizer responde a algumas destas questões: </p>
 
@@ -102,7 +102,7 @@
             </ul>
 
 
-            <hr>
+            <hr> -->
 
             <h2>Pede o teu e-mail Drible</h2>
 
@@ -115,7 +115,7 @@
             <h2>Junta-te ao Slack da Drible</h2>
 
             <p class="lead">
-                  Assim que já tiveres o slack instalado e tiveres o teu email @drible.pt regista-te no seguinte workspace <a href="https://join.slack.com/t/drible/signup" target="_blank">https://join.slack.com/t/drible/signup</a>
+                  Assim que já tiveres o slack instalado e tiveres o teu email @drible.pt regista-te no seguinte workspace <a href="https://join.slack.com/t/drible/signup" target="_blank">https://join.slack.com/t/drible/signup</a><br/>Assim que entrares no workspace, configura o teu perfil como fizeste no workspace Drible Interns (foto, nome, etc...)
             </p>
 
             <hr>
