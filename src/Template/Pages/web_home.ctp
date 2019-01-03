@@ -111,6 +111,14 @@
             </p>
 
             <hr>
+
+            <h2>Junta-te ao Slack da Drible</h2>
+
+            <p class="lead">
+                  Assim que já tiveres o slack instalado e tiveres o teu email @drible.pt regista-te no seguinte workspace <a href="#">https://join.slack.com/t/drible/signup</a>
+            </p>
+
+            <hr>
 <!--
             <h2>Daily-Standup</h2>
 
