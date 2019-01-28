@@ -13,12 +13,18 @@
 
             <hr>
 
+            <h2>XAMPP</h2>
+
+            <p class="lead">Para computadores windows, tens que fazer <a href="https://www.apachefriends.org/index.html" target="_blank">download</a> do XAMPP.</p>
+
+            <hr>
+<!--
             <h2>Configuração do Atom</h2>
 
             <ul>
                   <li class="lead">Abre o Atom. </li>
                   <li class="lead">Clica em “File” no canto superior esquerdo do ecrã. </li>
-                  <li class="lead">Em seguida, clica em “Open Folder” e seleciona a pasta onde tu guardaste o teu clone. </li>
+                  <li class="lead">Em seguida, clica em “Add Project Folder” e seleciona a pasta onde tu guardaste o teu clone. </li>
             </ul>
 
             <p class="lead">Agora já deves ter o clone do fork no teu Atom. Para teres certeza de que funcionou, a tua pasta deve ficar parecida a como ficou a pasta da imagem abaixo.</p>
@@ -40,14 +46,14 @@
             </ul>
 
             <hr>
-
+-->
             <h2>Fork</h2>
 
             <p class="lead"> Criar um “fork” é produzir um cópia pessoal do projeto de alguém. Os forks como se fossem uma ponte entre o repositório original e a tua cópia pessoal. Podes enviar Pull Requests para ajudar a fazer as outras pessoas a tornar os seus projetos melhor oferecendo as tuas mudanças ao projeto original. </p>
 
             <h3> Dar Fork a um repositório </h3>
 
-            <p class="lead"> Para dar fork num repositório, clica no botão Fork localizado acima do repositório.</p>
+            <p class="lead"> Para dar fork num repositório, tens de abrir o <a href="https://github.com/agencia-drible/drible" target="_blank">link</a> e depois clicar no botão Fork localizado acima do repositório.</p>
 
             <img src="/img/fork_forkbutton.png" alt="Fork Button">
 
