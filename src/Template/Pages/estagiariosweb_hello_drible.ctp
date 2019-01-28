@@ -18,35 +18,7 @@
             <p class="lead">Para computadores windows, tens que fazer <a href="https://www.apachefriends.org/index.html" target="_blank">download</a> do XAMPP.</p>
 
             <hr>
-<!--
-            <h2>Configuração do Atom</h2>
 
-            <ul>
-                  <li class="lead">Abre o Atom. </li>
-                  <li class="lead">Clica em “File” no canto superior esquerdo do ecrã. </li>
-                  <li class="lead">Em seguida, clica em “Add Project Folder” e seleciona a pasta onde tu guardaste o teu clone. </li>
-            </ul>
-
-            <p class="lead">Agora já deves ter o clone do fork no teu Atom. Para teres certeza de que funcionou, a tua pasta deve ficar parecida a como ficou a pasta da imagem abaixo.</p>
-
-            <img src="/img/atomfolderexample.png" alt="Atom Folder">
-
-            <hr>
-
-            <h2>Github Desktop</h2>
-
-            <ul>
-                  <li class="lead">Ao abrires o programa, em princípio o teu repositório, já deve estar selecionado.</li>
-                  <li class="lead">No Atom, sempre que fizeres uma alteração e guardares-la (Ctrl+S), a alteração irá te aparecer no GitHub Desktop no painel esquerdo.</li>
-                  <li class="lead">Depois onde diz “Summary”, preenche com um título para a alteração que fizeste.</li>
-                  <li class="lead">Onde diz “Description”, podes descrever o que fizeste (não obrigatório).</li>
-                  <li class="lead">Quando terminares os passos anteriores clicas em “Commit to gh-pages”.</li>
-                  <li class="lead">E depois em cima clica em “Push to origin”.</li>
-                  <li class="lead">Verifica se tens o “Commit” guardado no repositório.</li>
-            </ul>
-
-            <hr>
--->
             <h2>Fork</h2>
 
             <p class="lead"> Criar um “fork” é produzir um cópia pessoal do projeto de alguém. Os forks como se fossem uma ponte entre o repositório original e a tua cópia pessoal. Podes enviar Pull Requests para ajudar a fazer as outras pessoas a tornar os seus projetos melhor oferecendo as tuas mudanças ao projeto original. </p>
@@ -68,12 +40,36 @@
                         <li class="lead">No GitHub.com, navega até à barra de codificação do teu repositório.</li>
                         <li class="lead">No lado direito do ecrã, clica em “Clone or download”.</li>
                         <img src="/img/cloneclonebutton.png" alt="Clone Button" width="700" height="400">
-                        <li class="lead">Depois clica em “Open in Desktop”. Isto abrir-te-á o GitHub Desktop.</li>
-                        <img src="/img/cloneopendesktop.png" alt="Open in Dekstop Button">
-                        <li class="lead">Cria uma pasta com o nome “Drible” no teu disco.</li>
-                        <li class="lead">Guarda o diretório da pasta “Drible”.</li>
-                        <li class="lead">Clica em Clone.</li>
-                        <li class="lead">Seleciona a pasta “Drible” para guardares o clone.</li>
+                        <li class="lead">Depois abre o GitHub Desktop e clica em clonar um repositório.</li>
+                        <li class="lead">Usa o URL do fork e instala na pasta XAMPP\htdocs.</li>
+                  </ul>
+
+                  <hr>
+
+                  <h2>Configuração do Atom</h2>
+
+                  <ul>
+                        <li class="lead">Abre o Atom. </li>
+                        <li class="lead">Clica em “File” no canto superior esquerdo do ecrã. </li>
+                        <li class="lead">Em seguida, clica em “Add Project Folder” e seleciona a pasta onde tu guardaste o teu clone. </li>
+                  </ul>
+
+                  <p class="lead">Agora já deves ter o clone do fork no teu Atom. Para teres certeza de que funcionou, a tua pasta deve ficar parecida a como ficou a pasta da imagem abaixo.</p>
+
+                  <img src="/img/atomfolderexample.png" alt="Atom Folder">
+
+                  <hr>
+
+                  <h2>Github Desktop</h2>
+
+                  <ul>
+                        <li class="lead">Ao abrires o programa, em princípio o teu repositório, já deve estar selecionado.</li>
+                        <li class="lead">No Atom, sempre que fizeres uma alteração e guardares-la (Ctrl+S), a alteração irá te aparecer no GitHub Desktop no painel esquerdo.</li>
+                        <li class="lead">Depois onde diz “Summary”, preenche com um título para a alteração que fizeste.</li>
+                        <li class="lead">Onde diz “Description”, podes descrever o que fizeste (não obrigatório).</li>
+                        <li class="lead">Quando terminares os passos anteriores clicas em “Commit to gh-pages”.</li>
+                        <li class="lead">E depois em cima clica em “Push to origin”.</li>
+                        <li class="lead">Verifica se tens o “Commit” guardado no repositório.</li>
                   </ul>
 
                   <hr>
