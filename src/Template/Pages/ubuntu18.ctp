@@ -195,17 +195,41 @@
 
             <p class=""><code>mysql> SELECT user,authentication_string,plugin,host FROM mysql.user;</code></p>
 
-            <p class=""><code>Output
-              <br>+------------------+-------------------------------------------+-----------------------+-----------+
-              <br>| user             | authentication_string                     | plugin                | host      |
-              <br>+------------------+-------------------------------------------+-----------------------+-----------+
-              <br>| root             |                                           | auth_socket           | localhost |
-              <br>| mysql.session    | *THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE | mysql_native_password | localhost |
-              <br>| mysql.sys        | *THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE | mysql_native_password | localhost |
-              <br>| debian-sys-maint | *CC744277A401A7D25BE1CA89AFF17BF607F876FF | mysql_native_password | localhost |
-              <br>+------------------+-------------------------------------------+-----------------------+-----------+
-              <br>4 rows in set (0.00 sec)
-            </code></p>
+            <table>
+              <tr>
+                <th><code>Output</code></th>
+              </tr>
+              <tr>
+                <th><code>User</code></th>
+                <th><code>authentication_string</code></th>
+                <th><code>plugin</code></th>
+                <th><code>host</code></th>
+              </tr>
+              <tr>
+                <th><code>root</code></th>
+                <th></th>
+                <th><code>auth_socket</code></th>
+                <th><code>localhost</code></th>
+              </tr>
+              <tr>
+                <th><code>mysql.session</code></th>
+                <th><code>THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE</code></th>
+                <th><code>mysql_native_password</code></th>
+                <th><code>localhost</code></th>
+              </tr>
+              <tr>
+                <th><code>mysql.sys</code></th>
+                <th><code>THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE</code></th>
+                <th><code>mysql_native_password</code></th>
+                <th><code>localhost</code></th>
+              </tr>
+              <tr>
+                <th><code>debian-sys-maint</code></th>
+                <th><code>*CC744277A401A7D25BE1CA89AFF17BF607F876FF</code></th>
+                <th><code>mysql_native_password</code></th>
+                <th><code>localhost</code></th>
+              </tr>
+            </table>
 
             <p class="">In this example, you can see that the <strong>root</strong> user does in fact authenticate using the <code>auth_socket</code> plugin. To configure the <strong>root</strong> account to authenticate with a password, run the following <code>ALTER USER</code> command. Be sure to change password to a strong <code>password</code> of your choosing:</p>
 
@@ -218,6 +242,42 @@
             <p class="">Check the authentication methods employed by each of your users again to confirm that <strong>root</strong> no longer authenticates using the <code>auth_socket</code> plugin:</p>
 
             <p class=""><code>mysql> SELECT user,authentication_string,plugin,host FROM mysql.user;</code></p>
+
+            <table>
+              <tr>
+                <th><code>Output</code></th>
+              </tr>
+              <tr>
+                <th><code>User</code></th>
+                <th><code>authentication_string</code></th>
+                <th><code>plugin</code></th>
+                <th><code>host</code></th>
+              </tr>
+              <tr>
+                <th><code>root</code></th>
+                <th><code>*3636DACC8616D997782ADD0839F92C1571D6D78F</code></th>
+                <th><code>mysql_native_password</code></th>
+                <th><code>localhost</code></th>
+              </tr>
+              <tr>
+                <th><code>mysql.session</code></th>
+                <th><code>THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE</code></th>
+                <th><code>mysql_native_password</code></th>
+                <th><code>localhost</code></th>
+              </tr>
+              <tr>
+                <th><code>mysql.sys</code></th>
+                <th><code>THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE</code></th>
+                <th><code>mysql_native_password</code></th>
+                <th><code>localhost</code></th>
+              </tr>
+              <tr>
+                <th><code>debian-sys-maint</code></th>
+                <th><code>*CC744277A401A7D25BE1CA89AFF17BF607F876FF</code></th>
+                <th><code>mysql_native_password</code></th>
+                <th><code>localhost</code></th>
+              </tr>
+            </table>
 
             <p class="">You can see in this example output that the <strong>root</strong> MySQL user now authenticates using a password. Once you confirm this on your own server, you can exit the MySQL shell:</p>
 
@@ -255,183 +315,183 @@
               <br>DirectoryIndex <code>index.php</code> index.html index.cgi index.pl index.xhtml index.htm
               <br>&lt/IfModule&gt</code></p>
 
-            <p class="">When you are finished, save and close the file by pressing CTRL+X. Confirm the save by typing Y and then hit ENTER to verify the file save location.</p>
+              <p class="">When you are finished, save and close the file by pressing CTRL+X. Confirm the save by typing Y and then hit ENTER to verify the file save location.</p>
 
-            <p class="">After this, restart the Apache web server in order for your changes to be recognized. Do this by typing this:</p>
+              <p class="">After this, restart the Apache web server in order for your changes to be recognized. Do this by typing this:</p>
 
-            <p class=""><code>$ sudo systemctl restart apache2</code></p>
+              <p class=""><code>$ sudo systemctl restart apache2</code></p>
 
-            <p class="">You can also check on the status of the <code>apache2</code> service using <code>systemctl</code>:</p>
+              <p class="">You can also check on the status of the <code>apache2</code> service using <code>systemctl</code>:</p>
 
-            <p class=""><code>$ sudo systemctl status apache2</code></p>
+              <p class=""><code>$ sudo systemctl status apache2</code></p>
 
-            <div class="cod">
-              <p class=""><code>Sample Output</code></p>
+              <div class="cod">
+                <p class=""><code>Sample Output</code></p>
 
-              <p class=""><code>apache2.service - LSB: Apache2 web server
-                <br>Loaded: loaded (/etc/init.d/apache2; bad; vendor preset: enabled)
-                <br>Drop-In: /lib/systemd/system/apache2.service.d</code>
-              </p>
-              <p class=""><code>└─apache2-systemd.conf</code></p>
-              <p class=""><code>Active: active (running) since Tue 2018-04-23 14:28:43 EDT; 45s ago
-                <br>Docs: man:systemd-sysv-generator(8)
-                <br>Process: 13581 ExecStop=/etc/init.d/apache2 stop (code=exited, status=0/SUCCESS)
-                <br>Process: 13605 ExecStart=/etc/init.d/apache2 start (code=exited, status=0/SUCCESS)
-                <br>Tasks: 6 (limit: 512)
-                <br>CGroup: /system.slice/apache2.service</code>
-              </p>
-              <p class=""><code>├─13623 /usr/sbin/apache2 -k start
-                <br>├─13626 /usr/sbin/apache2 -k start
-                <br>├─13627 /usr/sbin/apache2 -k start
-                <br>├─13628 /usr/sbin/apache2 -k start
-                <br>├─13629 /usr/sbin/apache2 -k start
-                <br>└─13630 /usr/sbin/apache2 -k start
+                <p class=""><code>apache2.service - LSB: Apache2 web server
+                  <br>Loaded: loaded (/etc/init.d/apache2; bad; vendor preset: enabled)
+                  <br>Drop-In: /lib/systemd/system/apache2.service.d</code>
+                </p>
+                <p class=""><code>└─apache2-systemd.conf</code></p>
+                <p class=""><code>Active: active (running) since Tue 2018-04-23 14:28:43 EDT; 45s ago
+                  <br>Docs: man:systemd-sysv-generator(8)
+                  <br>Process: 13581 ExecStop=/etc/init.d/apache2 stop (code=exited, status=0/SUCCESS)
+                  <br>Process: 13605 ExecStart=/etc/init.d/apache2 start (code=exited, status=0/SUCCESS)
+                  <br>Tasks: 6 (limit: 512)
+                  <br>CGroup: /system.slice/apache2.service</code>
+                </p>
+                <p class=""><code>├─13623 /usr/sbin/apache2 -k start
+                  <br>├─13626 /usr/sbin/apache2 -k start
+                  <br>├─13627 /usr/sbin/apache2 -k start
+                  <br>├─13628 /usr/sbin/apache2 -k start
+                  <br>├─13629 /usr/sbin/apache2 -k start
+                  <br>└─13630 /usr/sbin/apache2 -k start
+                </code></p>
+              </div>
+
+              <p class="">Press <code>Q</code> to exit this status output.</p>
+
+              <p class="">To enhance the functionality of PHP, you have the option to install some additional modules. To see the available options for PHP modules and libraries, pipe the results of apt search into less, a pager which lets you scroll through the output of other commands:</p>
+
+              <p class=""><code>$ apt search php- | less</code></p>
+
+              <p class="">Use the arrow keys to scroll up and down, and press <code>Q</code> to quit.</p>
+
+              <p class="">The results are all optional components that you can install. It will give you a short description for each:</p>
+
+              <p class="cod"><code>bandwidthd-pgsql/bionic 2.0.1+cvs20090917-10ubuntu1 amd64
+                <br>Tracks usage of TCP/IP and builds html files with graphs
+                <br>
+                <br>bluefish/bionic 2.2.10-1 amd64
+                <br>advanced Gtk+ text editor for web and software development
+                <br>
+                <br>cacti/bionic 1.1.38+ds1-1 all
+                <br>web interface for graphing of monitoring systems
+                <br>
+                <br>ganglia-webfrontend/bionic 3.6.1-3 all
+                <br>cluster monitoring toolkit - web front-end
+                <br>
+                <br>golang-github-unknwon-cae-dev/bionic 0.0~git20160715.0.c6aac99-4 all
+                <br>PHP-like Compression and Archive Extensions in Go
+                <br>
+                <br>haserl/bionic 0.9.35-2 amd64
+                <br>CGI scripting program for embedded environments
+                <br>
+                <br>kdevelop-php-docs/bionic 5.2.1-1ubuntu2 all
+                <br>transitional package for kdevelop-php
+                <br>
+                <br>kdevelop-php-docs-l10n/bionic 5.2.1-1ubuntu2 all
+                <br>transitional package for kdevelop-php-l10n
+                <br>…
+                <br>:
               </code></p>
+
+              <p class="">To learn more about what each module does, you could search the internet for more information about them. Alternatively, look at the long description of the package by typing:</p>
+
+              <p class=""><code>$ apt show package_name</code></p>
+
+              <p class="">There will be a lot of output, with one field called <code>Description</code> which will have a longer explanation of the functionality that the module provides.</p>
+
+              <p class="">For example, to find out what the <code>php-cli</code> module does, you could type this:</p>
+
+              <p class=""><code>$ apt show php-cli</code></p>
+
+              <p class="">Along with a large amount of other information, you'll find something that looks like this:</p>
+
+              <p class="cod"><code>Output
+                <br>…
+                <br>Description: command-line interpreter for the PHP scripting language (default)
+                <br>This package provides the /usr/bin/php command interpreter, useful for testing PHP scripts from a shell or performing general shell scripting tasks.
+                <br>.
+                <br>PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
+                <br>.
+                <br>This package is a dependency package, which depends on Ubuntu's default PHP version (currently 7.2).
+                <br>…
+              </code></p>
+
+              <p class="">If, after researching, you decide you would like to install a package, you can do so by using the <code>apt install</code> command like you have been doing for the other software.</p>
+
+              <p class="">If you decided that <code>php-cli</code> is something that you need, you could type:</p>
+
+              <p class=""><code>$ sudo apt install php-cli</code></p>
+
+              <p class="">If you want to install more than one module, you can do that by listing each one, separated by a space, following the <code>apt install</code> command, like this:</p>
+
+              <p class=""><code>$ sudo apt install package1 package2 ...</code></p>
+
+              <p class="">At this point, your LAMP stack is installed and configured. Before making any more changes or deploying an application, though, it would be helpful to proactively test out your PHP configuration in case there are any issues that should be addressed.</p>
+
+              <h2>Step 4 — Testing PHP Processing on your Web Server</h2>
+
+              <p class="">In order to test that your system is configured properly for PHP, create a very basic PHP script called <code>info.php</code>. In order for Apache to find this file and serve it correctly, it must be saved to a very specific directory, which is called the "web root".</p>
+
+              <p class="">In Ubuntu 18.04, this directory is located at <code>/var/www/html/</code>. Create the file at that location by running:</p>
+
+              <p class=""><code>$ sudo nano /var/www/html/info.php</code></p>
+
+              <p class="">This will open a blank file. Add the following text, which is valid PHP code, inside the file:</p>
+
+              <p class=""><code>info.php</code></p>
+
+              <p class="cod"><code>&lt?php
+                <br>phpinfo();
+                <br>?&gt
+              </code></p>
+
+              <p class="">When you are finished, save and close the file.</p>
+
+              <p class="">Now you can test whether your web server is able to correctly display content generated by this PHP script. To try this out, visit this page in your web browser. You'll need your server's public IP address again.</p>
+
+              <p class="">The address you will want to visit is:</p>
+
+              <p class=""><code>http://your_server_ip/info.php</code></p>
+
+              <p class="">The page that you come to should look something like this:</p>
+
+              <img src="img/apache2_ubunto2.png" class="center-img">
+
+              <p class="">This page provides some basic information about your server from the perspective of PHP. It is useful for debugging and to ensure that your settings are being applied correctly.</p>
+
+              <p class="">If you can see this page in your browser, then your PHP is working as expected.</p>
+
+              <p class="">You probably want to remove this file after this test because it could actually give information about your server to unauthorized users. To do this, run the following command:</p>
+
+              <p class=""><code>$ sudo rm /var/www/html/info.php</code></p>
+
+              <p class="">You can always recreate this page if you need to access the information again later.</p>
+
+              <h2>Conclusion</h2>
+
+              <p class="">Now that you have a LAMP stack installed, you have many choices for what to do next. Basically, you've installed a platform that will allow you to install most kinds of websites and web software on your server.</p>
+
+              <p class="">As an immediate next step, you should ensure that connections to your web server are secured, by serving them via HTTPS. The easiest option here is to use Let's Encrypt to secure your site with a free TLS/SSL certificate.</p>
+
+              <p class="">Some other popular options are:</p>
+
+              <ul>
+                <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-lamp-on-ubuntu-16-04">Install Wordpress</a> the most popular content management system on the internet.</li>
+                <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-18-04">Set Up PHPMyAdmin</a> to help manage your MySQL databases from web browser.</li>
+                <li><a href="https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server">Learn how to use SFTP</a> to transfer files to and from your server.</li>
+              </ul>
+
             </div>
-
-            <p class="">Press <code>Q</code> to exit this status output.</p>
-
-            <p class="">To enhance the functionality of PHP, you have the option to install some additional modules. To see the available options for PHP modules and libraries, pipe the results of apt search into less, a pager which lets you scroll through the output of other commands:</p>
-
-            <p class=""><code>$ apt search php- | less</code></p>
-
-            <p class="">Use the arrow keys to scroll up and down, and press <code>Q</code> to quit.</p>
-
-            <p class="">The results are all optional components that you can install. It will give you a short description for each:</p>
-
-            <p class="cod"><code>bandwidthd-pgsql/bionic 2.0.1+cvs20090917-10ubuntu1 amd64
-              <br>Tracks usage of TCP/IP and builds html files with graphs
-              <br>
-              <br>bluefish/bionic 2.2.10-1 amd64
-              <br>advanced Gtk+ text editor for web and software development
-              <br>
-              <br>cacti/bionic 1.1.38+ds1-1 all
-              <br>web interface for graphing of monitoring systems
-              <br>
-              <br>ganglia-webfrontend/bionic 3.6.1-3 all
-              <br>cluster monitoring toolkit - web front-end
-              <br>
-              <br>golang-github-unknwon-cae-dev/bionic 0.0~git20160715.0.c6aac99-4 all
-              <br>PHP-like Compression and Archive Extensions in Go
-              <br>
-              <br>haserl/bionic 0.9.35-2 amd64
-              <br>CGI scripting program for embedded environments
-              <br>
-              <br>kdevelop-php-docs/bionic 5.2.1-1ubuntu2 all
-              <br>transitional package for kdevelop-php
-              <br>
-              <br>kdevelop-php-docs-l10n/bionic 5.2.1-1ubuntu2 all
-              <br>transitional package for kdevelop-php-l10n
-              <br>…
-              <br>:
-            </code></p>
-
-            <p class="">To learn more about what each module does, you could search the internet for more information about them. Alternatively, look at the long description of the package by typing:</p>
-
-            <p class=""><code>$ apt show package_name</code></p>
-
-            <p class="">There will be a lot of output, with one field called <code>Description</code> which will have a longer explanation of the functionality that the module provides.</p>
-
-            <p class="">For example, to find out what the <code>php-cli</code> module does, you could type this:</p>
-
-            <p class=""><code>$ apt show php-cli</code></p>
-
-            <p class="">Along with a large amount of other information, you'll find something that looks like this:</p>
-
-            <p class="cod"><code>Output
-              <br>…
-              <br>Description: command-line interpreter for the PHP scripting language (default)
-              <br>This package provides the /usr/bin/php command interpreter, useful for testing PHP scripts from a shell or performing general shell scripting tasks.
-              <br>.
-              <br>PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
-              <br>.
-              <br>This package is a dependency package, which depends on Ubuntu's default PHP version (currently 7.2).
-              <br>…
-            </code></p>
-
-            <p class="">If, after researching, you decide you would like to install a package, you can do so by using the <code>apt install</code> command like you have been doing for the other software.</p>
-
-            <p class="">If you decided that <code>php-cli</code> is something that you need, you could type:</p>
-
-            <p class=""><code>$ sudo apt install php-cli</code></p>
-
-            <p class="">If you want to install more than one module, you can do that by listing each one, separated by a space, following the <code>apt install</code> command, like this:</p>
-
-            <p class=""><code>$ sudo apt install package1 package2 ...</code></p>
-
-            <p class="">At this point, your LAMP stack is installed and configured. Before making any more changes or deploying an application, though, it would be helpful to proactively test out your PHP configuration in case there are any issues that should be addressed.</p>
-
-            <h2>Step 4 — Testing PHP Processing on your Web Server</h2>
-
-            <p class="">In order to test that your system is configured properly for PHP, create a very basic PHP script called <code>info.php</code>. In order for Apache to find this file and serve it correctly, it must be saved to a very specific directory, which is called the "web root".</p>
-
-            <p class="">In Ubuntu 18.04, this directory is located at <code>/var/www/html/</code>. Create the file at that location by running:</p>
-
-            <p class=""><code>$ sudo nano /var/www/html/info.php</code></p>
-
-            <p class="">This will open a blank file. Add the following text, which is valid PHP code, inside the file:</p>
-
-            <p class=""><code>info.php</code></p>
-
-            <p class="cod"><code>&lt?php
-              <br>phpinfo();
-              <br>?&gt
-            </code></p>
-
-            <p class="">When you are finished, save and close the file.</p>
-
-            <p class="">Now you can test whether your web server is able to correctly display content generated by this PHP script. To try this out, visit this page in your web browser. You'll need your server's public IP address again.</p>
-
-            <p class="">The address you will want to visit is:</p>
-
-            <p class=""><code>http://your_server_ip/info.php</code></p>
-
-            <p class="">The page that you come to should look something like this:</p>
-
-            <img src="img/apache2_ubunto2.png" class="center-img">
-
-            <p class="">This page provides some basic information about your server from the perspective of PHP. It is useful for debugging and to ensure that your settings are being applied correctly.</p>
-
-            <p class="">If you can see this page in your browser, then your PHP is working as expected.</p>
-
-            <p class="">You probably want to remove this file after this test because it could actually give information about your server to unauthorized users. To do this, run the following command:</p>
-
-            <p class=""><code>$ sudo rm /var/www/html/info.php</code></p>
-
-            <p class="">You can always recreate this page if you need to access the information again later.</p>
-
-            <h2>Conclusion</h2>
-
-            <p class="">Now that you have a LAMP stack installed, you have many choices for what to do next. Basically, you've installed a platform that will allow you to install most kinds of websites and web software on your server.</p>
-
-            <p class="">As an immediate next step, you should ensure that connections to your web server are secured, by serving them via HTTPS. The easiest option here is to use Let's Encrypt to secure your site with a free TLS/SSL certificate.</p>
-
-            <p class="">Some other popular options are:</p>
-
-            <ul>
-              <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-lamp-on-ubuntu-16-04">Install Wordpress</a> the most popular content management system on the internet.</li>
-              <li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-18-04">Set Up PHPMyAdmin</a> to help manage your MySQL databases from web browser.</li>
-              <li><a href="https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server">Learn how to use SFTP</a> to transfer files to and from your server.</li>
-            </ul>
-
+            <div class="col-2"></div>
           </div>
-          <div class="col-2"></div>
+        </div>
+      </main>
+      <div class="row bg-secondary">
+        <div class="col-lg-12">
+          <p class="center">footer</p>
         </div>
       </div>
-    </main>
-    <div class="row bg-secondary">
-      <div class="col-lg-12">
-        <p class="center">footer</p>
+      <div class="row bg-secondary">
+        <div class="col-lg-6">
+          <p class="center">esq</p>
+        </div>
+        <div class="col-lg-6">
+          <p class="center">dir</p>
+        </div>
       </div>
     </div>
-    <div class="row bg-secondary">
-      <div class="col-lg-6">
-        <p class="center">esq</p>
-      </div>
-      <div class="col-lg-6">
-        <p class="center">dir</p>
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+  </body>
+  </html>
