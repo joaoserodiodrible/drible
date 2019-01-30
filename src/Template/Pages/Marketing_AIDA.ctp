@@ -122,10 +122,6 @@
 
           <p>Tendo instruções claras do que fazer, mantendo um fluxo coerente durante a conversão e não exigindo informações sensíveis ou formulários longos, a conversão tende a acontecer.</p>
 
-          <p>Se você está escrevendo um artigo, por exemplo, aqui é a hora de você fazer o Call-to-Action.</p>
-
-          <p>Portanto, se quiser saber mais sobre copywriting e conversão, baixe gratuitamente nosso eBook: Como criar Landing Pages que convertem.</p>
-
           <div id="how"><a href="how"></a><h2>Como é usado?</h2></div>
 
           <p>O modelo AIDA moldou os pontos de vista sobre marketing e estratégias de vendas por mais de 100 anos. A fórmula ainda pode ser encontrada nos manuais de marketing padrão atuais. Além disso, o AIDA também é usado no RP para planejar e analisar a eficácia das campanhas de RP, e ainda fornece informações valiosas para a análise de mensagens publicitárias. O benefício desta fórmula simples pode ser encontrado em sua simplicidade e possibilidades de aplicações flexíveis em outras áreas. No e-commerce, por exemplo, a eficácia da apresentação do produto em uma loja on-line pode ser analisada usando os quatro aspetos da fórmula AIDA.</p>
@@ -140,16 +136,6 @@
           <a href="#top" class=""><p class="footerup">Go up &uArr;</p></a>
         </div>
       </div>
-      <!-- <div class="row bg-secondary">
-      <div class="col-lg-6">
-      esquerda
-      <p class="center">esq</p>
     </div>
-    <div class="col-lg-6">
-    direita
-    <p class="center">dir</p>
-  </div>
-</div> -->
-</div>
-</body>
-</html>
+  </body>
+  </html>
