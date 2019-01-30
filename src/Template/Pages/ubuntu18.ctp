@@ -48,10 +48,10 @@
     </div>
     <div class="divider"></div>
     <main class="bd-masthead" id="content" role="main">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <!-- <div class="col-1"></div> -->
-          <div class="col-12">
+          <div class="col-2"></div>
+          <div class="col-8">
             <h1>How To Install Linux, Apache, MySQL, PHP (LAMP) stack on Ubuntu 18.04</h1>
 
             <h2>Introduction</h2>
@@ -415,7 +415,7 @@
             </ul>
 
           </div>
-          <!-- <div class="col-1"></div> -->
+          <div class="col-2"></div>
         </div>
       </div>
     </main>
