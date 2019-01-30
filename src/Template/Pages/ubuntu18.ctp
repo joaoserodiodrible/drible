@@ -119,7 +119,7 @@
 
             <p class="">You will see the default Ubuntu 18.04 Apache web page, which is there for informational and testing purposes. It should look something like this:</p>
 
-            <img src="img/apache2_ubunto.png" class="center-img">
+            <img src="/img/apache2_ubunto.png" class="center-img">
 
             <p class="">If you see this page, then your web server is now correctly installed and accessible through your firewall.</p>
 
@@ -448,7 +448,7 @@
 
               <p class="">The page that you come to should look something like this:</p>
 
-              <img src="img/apache2_ubunto2.png" class="center-img">
+              <img src="/img/apache2_ubunto2.png" class="center-img">
 
               <p class="">This page provides some basic information about your server from the perspective of PHP. It is useful for debugging and to ensure that your settings are being applied correctly.</p>
 
