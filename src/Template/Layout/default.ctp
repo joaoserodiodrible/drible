@@ -94,7 +94,7 @@
                               </div>
                         </li>
                         <li class="nav-item">
-                              <a class="nav-link " href="/marketingdigital/home">Marketing Digital</a>
+                              <a class="nav-link " href="/marketing">Marketing Digital</a>
                         </li>
                   </ul>
             </div>

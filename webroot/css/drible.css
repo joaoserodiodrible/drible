@@ -60,3 +60,13 @@ a {
 .heightstandbot{
     height: 200px
 }
+
+.img-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 0px;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+}

@@ -75,6 +75,8 @@ Router::scope('/', function (RouteBuilder $routes) {
 
   $routes->connect('web/scripts/lamp-config', ['controller' => 'Pages', 'action' => 'webLampConfig']);
 
+  $routes->connect('web/scripts/lamp-config18', ['controller' => 'Pages', 'action' => 'ubuntu18']);
+
   $routes->connect('web/scripts/encrypt-apache', ['controller' => 'Pages', 'action' => 'webEncryptApache']);
 
   $routes->connect('web/scripts/vhosts-macos', ['controller' => 'Pages', 'action' => 'webVhostsMacos']);
@@ -86,6 +88,8 @@ Router::scope('/', function (RouteBuilder $routes) {
   $routes->connect('web/scripts/vhosts', ['controller' => 'Pages', 'action' => 'webVhosts']);
 
   $routes->connect('/web/processos/novo-projeto', ['controller' => 'Pages', 'action' => 'webProcessosNovoProjeto']);
+
+  $routes->connect('/marketing', ['controller' => 'Pages', 'action' => 'marketingAida']);
 
     /**
 
