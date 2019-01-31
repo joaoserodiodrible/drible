@@ -6,11 +6,15 @@
         <div class="col-8">
           <h1>How To Install and Configure Postfix on Ubuntu 16.04</h1>
 
+          <hr>
+
           <h2>Introduction</h2>
 
           <p class="lead">Postfix is a popular open-source Mail Transfer Agent (MTA) that can be used to route and deliver email on a Linux system. It is estimated that around 25% of public mail servers on the internet run Postfix.</p>
 
           <p class="lead">In this guide, we'll teach you how to get up and running quickly with Postfix on an Ubuntu 16.04 server.</p>
+
+          <hr>
 
           <h2>Prerequisites</h2>
 
@@ -19,6 +23,8 @@
           <p class="lead">In order to properly configure Postfix, you will need a Fully Qualified Domain Name pointed at your Ubuntu 16.04 server. You can find help on setting up your domain name with DigitalOcean by following <a href="https://www.digitalocean.com/docs/networking/dns/">this guide</a>. If you plan on accepting mail, you will need to make sure you have an MX record pointing to your mail server as well.</p>
 
           <p class="lead">For the purposes of this tutorial, we will assume that you are configuring a host that has the FQDN of <code>mail.example.com</code>.</p>
+
+          <hr>
 
           <h2>Step 1: Install Postfix</h2>
 
@@ -64,6 +70,8 @@
 
           <p class="lead">When you are finished, we can now do a bit more configuration to set up our system how we'd like it.</p>
 
+          <hr>
+
           <h2>Step 2: Tweak the Postfix Configuration</h2>
 
           <p class="lead">Next, we can adjust some settings that the package did not prompt us for.</p>
@@ -77,6 +85,8 @@
           <p class="lead">Next, we can set the location of the <code>virtual_alias_maps</code> table. This table maps arbitrary email accounts to Linux system accounts. We will create this table at <code>/etc/postfix/virtual</code>. Again, we can use the <code>postconf</code> command:</p>
 
           <code>$ sudo postconf -e 'virtual_alias_maps= hash:/etc/postfix/virtual'</code>
+
+          <hr>
 
           <h2>Step 3: Map Mail Addresses to Linux Accounts</h2>
 
@@ -103,6 +113,8 @@
 
           <code>$ sudo systemctl restart postfix</code>
 
+          <hr>
+
           <h2>Step 4: Adjust the Firewall</h2>
 
           <p class="lead">If you are running the UFW firewall, as configured in the initial server setup guide, we'll have to allow an exception for Postfix.</p>
@@ -112,6 +124,8 @@
           <code>$ sudo ufw allow Postfix</code>
 
           <p class="lead">The Postfix server component is installed and ready. Next, we will set up a client that can handle the mail that Postfix will process.</p>
+
+          <hr>
 
           <h2>Step 5: Setting up the Environment to Match the Mail Location</h2>
 
@@ -126,6 +140,8 @@
           <p class="lead">To read the variable into your current session, you can source the <code>/etc/profile.d/mail.sh</code> file:</p>
 
           <code>$ source /etc/profile.d/mail.sh</code>
+
+          <hr>
 
           <h2>Step 6: Install and Configure the Mail Client</h2>
 
@@ -152,9 +168,13 @@
 
           <p class="lead">Save and close the file when you are finished.</p>
 
+          <hr>
+
           <h2>Step 7: Initialize the Maildir and Test the Client</h2>
 
           <p class="lead">Now, we can test the client out.</p>
+
+          <hr>
 
           <h3>Initializing the Directory Structure</h3>
 
@@ -183,6 +203,8 @@
             <br>
             <br>/home/sammy/Maildir/tmp:
           </code>
+
+          <hr>
 
           <h3>Managing Mail with the Client</h3>
 
@@ -230,6 +252,8 @@
 
           <code>? 1</code>
 
+          <hr>
+
           <h3>Sending Mail with the Client</h3>
 
           <p class="lead">You can test sending mail by typing a message in a text editor:</p>
@@ -264,6 +288,8 @@
           <code>? file +sent</code>
 
           <p class="lead">You can manage sent mail using the same commands you use for incoming mail.</p>
+
+          <hr>
 
           <h2>Conclusion</h2>
 
