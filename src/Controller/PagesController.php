@@ -123,4 +123,9 @@ class PagesController extends AppController
   public function ubuntu18(){
 
   }
+
+  public function postfixUbunto16(){
+
+  }
+
 }
