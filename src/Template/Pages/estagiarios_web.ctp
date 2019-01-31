@@ -30,6 +30,18 @@
 
     <hr>
 
+    <h2>XAMPP</h2>
+
+    <p class="lead">Tens que fazer <a href="https://www.apachefriends.org/index.html" target="_blank">download</a> do XAMPP.</p>
+
+    <hr>
+
+    <h2>O que é XAMPP?</h2>
+
+    <p class="lead">XAMPP é um servidor independente de plataforma, software livre, que consiste principalmente na base de dados MySQL, o qual foi substituído pelo MariaDB, o servidor web Apache e os interpretadores para linguagens de script: PHP e Perl. O nome provem da abreviação de X (para qualquer dos diferentes sistemas operativos), Apache, MySQLDB, PHP, Perl. É um método que torna extremamente fácil para os desenvolvedores a criar um servidor web local para fins de teste.</p>
+
+    <hr>
+
     <h2>Git</h2>
 
     <h3>O que é um git?</h3>
@@ -101,7 +113,7 @@
       <li><p class="lead">Crie um diretório para conter o projeto.</p></li>
       <li><p class="lead">Vá para o novo diretório.</p></li>
       <li><p class="lead">Digite <code>git init</code> .</p></li>
-      <li><p class="lead">Digite <code>git add README.md</code> .</p></li>      
+      <li><p class="lead">Digite <code>git --add all</code> .</p></li>
       <li><p class="lead">Digite <code>git commit -m "first commit"</code> .</p></li>
       <li><p class="lead">Digite <code>git remote add origin git@github.com:alexpchin/<reponame>.git</code> .</p></li>
       <li><p class="lead">Digite <code>git push -u origin master</code> .</p></li>
@@ -110,42 +122,5 @@
     <p class="lead">O primeiro arquivo para criar (e adicionar e confirmar) é provavelmente um arquivo ReadMe, seja como texto simples ou com <a href="https://daringfireball.net/projects/markdown/">Markdown</a> , descrevendo o projeto.</p>
 
     <p class="lead">O Markdown permite adicionar um pouco de marcação de texto, como <a href="https://en.wikipedia.org/wiki/Hyperlink">hiperlinks</a> , <b>negrito</b> / <i>itálico</i> ou para indicar código com uma <tt>monospace</tt> font . O Markdown é facilmente convertido para html para visualização em um navegador da web, e o GitHub fará isso automaticamente.</p>
-
-    <hr>
-
-    <h2>Um novo repo de um projeto existente</h2>
-
-    <ul>
-      <p class="lead">Digamos que você tenha um projeto existente que deseja começar a rastrear com o git.</p>
-      <li><p class="lead">Vá para o diretório que contém o projeto.</p></li>
-      <li><p class="lead">Digite <code>git init</code> .</p></li>
-      <li><p class="lead">Digite <code>git add</code> para adicionar todos os arquivos relevantes .</p></li>
-      <li><p class="lead">Você provavelmente desejará criar um arquivo <code>.gitignore</code> imediatamente, para indicar todos os arquivos que não deseja rastrear. Use <code>git add</code> <code>.gitignore</code> também.</p></li>
-      <li><p class="lead">Digite <code>git commit</code>.</p></li>
-    </ul>
-
-    <hr>
-
-    <h2>Conecte-o ao github</h2>
-
-    <ul>
-      <p class="lead">Você agora tem um repositório git local. Você pode usar o git localmente, assim, se quiser. Mas se você quiser que a coisa tenha uma casa no github, faça o seguinte.</p>
-      <li><p class="lead">Vá para o <a href="https://github.com/">github</a> .</p></li>
-      <li><p class="lead">Faça login na sua conta.</p></li>
-      <li><p class="lead">Clique no botão do <a href="https://github.com/new">novo repositório</a> no canto superior direito. Você terá uma opção lá para inicializar o repositório com um arquivo README, mas eu não.</p></li>
-      <li><p class="lead">Clique no botão "Criar repositório".</p></li>
-    </ul>
-
-    <p class="lead">Agora, siga o segundo conjunto de instruções, "Enviar um repositório existente ..."</p>
-
-    <code>$ git remote add origin git@github.com:username/new_repo $ git push -u origin master </code>
-
-    <p class="lead">Na verdade, a primeira linha das instruções dirá</p>
-
-    <code>$ git remote add origin https://github.com/username/new_repo </code>
-
-    <p class="lead">Mas eu uso <code>git@github.com:username/new_repo</code> ao invés de <code>https://github.com/username/new_repo</code> , como o primeiro é para uso com o <a href="https://en.wikipedia.org/wiki/Secure_Shell">ssh</a> (se você configurar o ssh como eu mencionei em " <a href="https://kbroman.org/github_tutorial/pages/first_time.html">Sua primeira vez</a> ", então você não terá que digitar sua senha toda vez que enviar coisas para o github). Se você usar a última construção, você terá que digitar sua senha do github toda vez que você pressionar o github.</p>
-
-
   </div>
 </main>

@@ -13,12 +13,6 @@
 
             <hr>
 
-            <h2>XAMPP</h2>
-
-            <p class="lead">Tens que fazer <a href="https://www.apachefriends.org/index.html" target="_blank">download</a> do XAMPP.</p>
-
-            <hr>
-
             <h2>Fork</h2>
 
             <p class="lead"> Criar um “fork” é produzir um cópia pessoal do projeto de alguém. Os forks como se fossem uma ponte entre o repositório original e a tua cópia pessoal. Podes enviar Pull Requests para ajudar a fazer as outras pessoas a tornar os seus projetos melhor oferecendo as tuas mudanças ao projeto original. </p>
