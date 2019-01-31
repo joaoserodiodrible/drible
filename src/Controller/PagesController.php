@@ -116,7 +116,7 @@ class PagesController extends AppController
 
   }
 
-  public function marketingAida(){
+  public function aida(){
 
   }
 

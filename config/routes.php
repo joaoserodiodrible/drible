@@ -87,7 +87,7 @@ Router::scope('/', function (RouteBuilder $routes) {
 
   $routes->connect('/web/processos/novo-projeto', ['controller' => 'Pages', 'action' => 'webProcessosNovoProjeto']);
 
-  $routes->connect('/marketing', ['controller' => 'Pages', 'action' => 'marketingAida']);
+  $routes->connect('/marketing', ['controller' => 'Pages', 'action' => 'aida']);
 
   $routes->connect('web/scripts/postfix-config16', ['controller' => 'Pages', 'action' => 'postfixUbunto16']);
 
