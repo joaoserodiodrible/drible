@@ -73,6 +73,7 @@
     <h2>Noções básicas sobre o painel de controle do XAMPP</h2>
 
     <p class="lead">O painel de controle do XAMPP oferece controle total sobre todos os componentes do XAMPP instalados. Você pode usar o PC para iniciar / parar diferentes módulos, iniciar o shell do Unix, abrir o Windows Explorer e ver todas as operações sendo executadas em segundo plano.</p>
+    <p class="lead">O painel de controle do XAMPP oferece controle total sobre todos os componentes do XAMPP instalados. Você pode usar o PC para iniciar / parar diferentes módulos, iniciar o shell do Unix, abrir o Windows Explorer e ver todas as operações sendo executadas em segundo plano.</p>
 
     <hr>
 
