@@ -91,6 +91,7 @@
                                     <a class="dropdown-item" href="/web/home">Início</a>
                                     <a class="dropdown-item" href="/web/scripts">Scripts</a>
                                     <a class="dropdown-item" href="/web/processos">Processos</a>
+                                    <a class="dropdown-item" href="/web/twig">Frontend</a>
                               </div>
                         </li>
                         <li class="nav-item">

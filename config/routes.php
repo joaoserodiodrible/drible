@@ -93,6 +93,9 @@ Router::scope('/', function (RouteBuilder $routes) {
 
   $routes->connect('web/scripts/lamp-config18', ['controller' => 'Pages', 'action' => 'ubuntu18']);
 
+  $routes->connect('web/twig', ['controller' => 'Pages', 'action' => 'twig']);
+
+
     /**
 
      * Here, we are connecting '/' (base path) to a controller called 'Pages',
