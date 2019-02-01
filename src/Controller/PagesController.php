@@ -131,4 +131,8 @@ class PagesController extends AppController
   public function twig(){
 
   }
+
+  public function linuxcmd(){
+
+  }
 }

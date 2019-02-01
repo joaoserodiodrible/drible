@@ -95,6 +95,8 @@ Router::scope('/', function (RouteBuilder $routes) {
 
   $routes->connect('web/twig', ['controller' => 'Pages', 'action' => 'twig']);
 
+  $routes->connect('cmd', ['controller' => 'Pages', 'action' => 'linuxcmd']);
+
 
     /**
 
