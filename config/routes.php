@@ -93,10 +93,13 @@ Router::scope('/', function (RouteBuilder $routes) {
 
   $routes->connect('web/scripts/lamp-config18', ['controller' => 'Pages', 'action' => 'ubuntu18']);
 
-  $routes->connect('web/twig', ['controller' => 'Pages', 'action' => 'twig']);
+  $routes->connect('web/frontend/twig', ['controller' => 'Pages', 'action' => 'twig']);
 
-  $routes->connect('cmd', ['controller' => 'Pages', 'action' => 'linuxcmd']);
+  $routes->connect('web/frontend/cmd', ['controller' => 'Pages', 'action' => 'linuxcmd']);
 
+  $routes->connect('web/frontend/boot', ['controller' => 'Pages', 'action' => 'bootstrap']);
+
+  $routes->connect('web/frontend', ['controller' => 'Pages', 'action' => 'webFront']);
 
     /**
 

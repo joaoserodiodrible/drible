@@ -135,4 +135,12 @@ class PagesController extends AppController
   public function linuxcmd(){
 
   }
+
+  public function bootstrap(){
+
+  }
+
+  public function webFront(){
+
+  }
 }
